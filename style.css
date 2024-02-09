@@ -1,5 +1,5 @@
 .calculator{
-    width: 400px;   
+    width: 360px;   
     border: 7px solid;
     border-radius: 15px;
     background-color:rgb(206, 206, 152);
@@ -18,7 +18,7 @@
 }
 
 .display{
-    font-size: 38px;
+    font-size: 36px;
     margin-right: 5px;
     height: 50px
 }
@@ -46,8 +46,8 @@ button{
     align-items: center;
     font-size: 18px;
     border-radius: 30%;
-    width: 92px;
-    height: 60px;
+    width: 82px;
+    height: 50px;
     margin: 0px;
     margin-top: 2px;
     margin-bottom: 2px;

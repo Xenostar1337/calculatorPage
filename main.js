@@ -23,7 +23,7 @@ for (let i = 1; i <= 20; i++) {
                 break;
             case 2:
                 console.log("Action for Button pi");
-                displayView.textContent = '3.14159265358979';
+                displayView.textContent = '3.1415926535897';
                 break;
             case 3:
                 console.log("Action for Button clear");
@@ -57,7 +57,7 @@ for (let i = 1; i <= 20; i++) {
                 // Perform action for plus
                 break;  
             default:// default action
-                if (displayView.textContent.length < 16) {
+                if (displayView.textContent.length < 15) {
                     console.log("Default action");
                     let testIt = document.getElementById(buttonId).textContent;
                     displayView.textContent += testIt;    
