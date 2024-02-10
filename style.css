@@ -23,11 +23,21 @@
     height: 50px
 }
 
-.overFlow{
-    margin-right: 15px;
+.overFlowArea{
+    display: flex;
+   justify-content: right;
     font-size: 24px;
     letter-spacing: 3px;
     height: 20px;
+}
+
+.operator{
+    margin-right: 5px;
+}
+
+.overFlow{
+    margin-right: 1px;
+   
 }
 
 .buttonArea{
@@ -57,9 +67,8 @@ button{
 }
 
 #button1{
-        font-size: 40px;
-        text-align: center;
-        background-color: grey;        
+        
+    background-color: grey;        
 }
 
 #button2{
@@ -76,4 +85,10 @@ button{
 
 #button8, #button12, #button16, #button19, #button20{
     background-color: cornflowerblue;
+}
+
+.warning{
+    color: red;
+    text-align: left;
+    margin-left: 40px;
 }
